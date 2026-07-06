@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contatos_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+ 
+    <title>Contatos</title>
+</head>
+<body>
+    <header id="menu">
+
+<img class="logo" src="imagens/avatar.png" alt="">
+
+        <h1>Portfólio e Curriculo</h1>
+
+        <h2>Rafael Dantas</h2>
+    
+    <nav>
+        <a class="links1" href="index.html"> Curriculo</a>
+        <a class="links1" href="portfolio.html"> Portfolio</a>
+        <a class="links1" href="contatos.html"> Contatos</a>   
+        
+    </nav>
+</header>
+    
+        <div id="info01">
+    <h3>Informações pessoais</h3>
+    <ul>
+    <li> Rafael Dantas</li>
+    <li> Rua miguel de quadros marinho</li>
+    <li> São Paulo</li>
+    <li> (11) 97711-5452</li>
+    <li> rafaeldantas2k08@gmail.com</li> 
+    <li> Solteiro</li>
+    </ul>
+    </div>
+
+    <main>
+<form action="" method="post" enctype="text/plain">
+    <fieldset>
+        <legend>indentificação do usuario</legend>
+        <p>
+            <label for="nome">nome:</label>
+            <input type="text" name="nome" id="cnome" size="50" maxlength="13" placeholder="Digite aqui seu nome completo" required autocomplete="on" autofocus> 
+        </p>
+        <p>
+            <label for="senha"> senha:</label>
+            <input type="password" name="senha" id="csenha" size="10" max="8" placeholder="8 digitos">
+        </p>
+
+        <p>
+            <label for="email"> email:</label>
+        <input type="email" name="email" id="cemail" size="30" max="30" placeholder="digite o seu e-mail">
+        </p>
+        <fieldset>
+            <legend>sexo</legend>
+            <p>
+                <input type="radio" name="sexo" id="cmasc" checked>
+                <label for="sexo"> masculino</label>
+</p>
+<p>
+                <input type="radio" name="sexo" id="cmfem">
+                <label for="sexo"> feminino</label>
+</p>
+<p>
+                <input type="radio" name="sexo" id="coutro" checked>
+                <label for="sexo"> outro</label>
+</p>
+
+<p>
+    <label for=""> data de nascimento</label>
+    <input type="date" name="data" id="data">
+</p>
+            </p>
+        </fieldset>
+    </fieldset>
+
+    <fieldset>
+        <legend>endereço do usuario</legend>
+        <p>
+        <label for=""> logradouro</label>
+        <input type="text" name="rua" id="crua" size="50" maxlength="50" placeholder="rua, av, trav">
+        </p>
+    
+
+<p>
+    <label for=""> Numero: </label>
+    <input type="number" name="num" id="cnum" size="sh" min="0" max="9999" step="1" value="1">
+</p>
+
+<p>
+<label for=""> Estado:</label>
+<select name="estado" id="estado">
+    <option value="">Selecione um estado</option>
+    <option value="AC">Acre</option>
+    <option value="AP">Amapá</option>
+    <option value="AL">Alagoas</option>
+    <option value="AM">Amazonas</option>
+    <option value="BA">Bahia</option>
+    <option value="CE">Ceará</option>
+    <option value="DF">Distrito Federal</option>
+    <option value="ES">Espírito Santo</option>
+    <option value="GO">Goiás</option>
+    <option value="MA">Maranhão</option>
+    <option value="MT">Mato Grosso</option>
+    <option value="MS">Mato Grosso do Sul</option>
+    <option value="MG">Minas Gerais</option>
+    <option value="PA">Pará</option>
+    <option value="PB">Paraíba</option>
+    <option value="PR">Paraná</option>
+    <option value="PE">Pernambuco</option>
+    <option value="PI">Piauí</option>
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="RN">Rio Grande do Norte</option>
+    <option value="RS">Rio Grande do Sul</option>
+    <option value="RO">Rondônia</option>
+    <option value="RR">Roraima</option>
+    <option value="SC">Santa Catarina</option>
+    <option value="SP">São Paulo</option>
+    <option value="SE">Sergipe</option>
+    <option value="TO">Tocantins</option>
+</select>
+</p>
+
+<p>
+<label> Cidade: </label>
+<input type="text" name="Cidade" id="ccid" size="20" maxlength="20" placeholder="Digite sua cidade aqui" com>
+</p>
+
+</fieldset>
+
+<fieldset>
+    <legend>mensagem do usuario</legend>
+    <p>
+        <label for="">mensagem:</label>
+    </p>
+    <p>
+        <textarea name="msg" id="cmsg" cols="50" rows="10" placeholder="digite aqui sua mensagem" maxlength="1000">
+
+        </textarea>
+    </p>
+</fieldset>
+
+<input type="button" value="enviar" class="btn" name="enviar">
+<input type="reset" value="limpar" class="btn" name="limpar">
+</form>
+    </main>
+
+
+    <footer>
+        © Portfólio - 2025 Rafael Dantas 
+        <a href="https://www.instagram.com/"> <img src="imagens/Instagram_icon-icons.com_66804.png" width="30">
+        <a href="https://www.facebook.com/?locale=pt_BR"><img src="imagens/facebook_icon-icons.com_53612.png" width="30">
+        <a href="https://x.com/?lang=pt"><img src="imagens/268058_x-logo-icon.png" width="30">
+        <a href="https://unibes.org.br/"><img src="imagens/unibes.png" width="30">
+    </footer>
+</body>
+</html>

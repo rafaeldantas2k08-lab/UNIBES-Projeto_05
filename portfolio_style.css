@@ -1,0 +1,41 @@
+.grafico {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    transition: width 0.8s;
+}
+
+.grafico:hover {
+    width: 900px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links2 {
+    background-color:
+        rgba(76, 140, 201, 0.645);
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 20rem;
+    padding: 1rem 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links2 a {
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.linha {
+    height: 2.3rem;
+    border-left: 1px solid #000;
+}
